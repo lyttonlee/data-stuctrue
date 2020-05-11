@@ -1,0 +1,16 @@
+{
+  "name": "JS-data-structrue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "lytton",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  }
+}
