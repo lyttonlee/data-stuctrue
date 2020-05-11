@@ -9,8 +9,9 @@ class Stack {
     this.size = this.stack.length
   }
   pop () {
-    this.stack.pop()
+    let currentItem = this.stack.pop()
     this.size = this.stack.length
+    return currentItem || '栈已经空了'
   }
   getSize () {
     return this.stack.length
